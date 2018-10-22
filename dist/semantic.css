@@ -32465,6 +32465,10 @@ body.dimmable > .dimmer {
   min-width: 100%;
 }
 
+ .dropdown a.ui.label {
+   display: inline-block;
+ }
+
 /*--------------
      Button
 ---------------*/
@@ -38015,6 +38019,12 @@ body.pushable > .pusher {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
+
+ /* Clone */
+ 
+ .clone {
+   display: none;
+ }
 
 /*******************************
           Variations
